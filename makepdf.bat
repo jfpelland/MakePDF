@@ -16,6 +16,7 @@ if "%1"=="/?" goto help
 if "%1" == "/v" (
 	set input=%2
 	set output=%3
+	set quiet=
 ) else (
 	set quiet=-quiet
 	set input=%1
